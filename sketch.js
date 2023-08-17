@@ -80,10 +80,10 @@ function draw() {
     }else{
       if(swordGroup.isTouching(boy)) {
         gameState=END;
-        cashGdestroyEach();
-         diamondsGdestroyEach();
-         jewelryGdestroyEach();
-         swordGroupdestroyEach();
+        cashG.destroyEach();
+         diamondsG.destroyEach();
+         jewelryG.destroyEach();
+         swordGroup.destroyEach();
         
        
         // cashG.destroyEach;
